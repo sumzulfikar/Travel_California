@@ -40,6 +40,8 @@ h6 {
   letter-spacing: 1px;
 }
 
+
+
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -52,12 +54,43 @@ section {
 
 section h2 {
   font-size: 50px;
+
+  
 }
 
 .masthead{
-  width: 724px;
-  height: 536px;
-  flex-shrink: 0;
+  width: 100% !important;
+  height: 400px!important;
   color: white;
+  display: flex;
+  background-image: url("../images/bg-img.png") !important;
+  /* width: 724px;
+  height: 477px; */
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  
+}
 
+
+
+.device-container{
+  width: 100px;
+  height: 90px;
+  flex-shrink: 0;
+  background-color:  lightgray 50% cover no-repeat;
+
+
+}
+
+.download{
+  background: #FDC949;
+}
+.section-heading{
+  display: flex;
+width: 1002px;
+height: 219px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
 }
